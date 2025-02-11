@@ -1,4 +1,4 @@
-# Interactive Navigation Menu
+# Responsive Landing Page
 
 This project is a responsive and interactive navigation menu built using **HTML**, **CSS**, and **JavaScript**. 
 The navigation menu changes its style when scrolled or when hovering over menu items, providing a dynamic user experience.
