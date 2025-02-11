@@ -1,27 +1,22 @@
-# Interactive Navigation Menu Web Page
+# Interactive Navigation Menu
 
-This project is a responsive and interactive web page with a fixed navigation menu that changes color on scroll and hover. 
-It is built using HTML, CSS, and JavaScript.
+This project is a responsive and interactive navigation menu built using **HTML**, **CSS**, and **JavaScript**. 
+The navigation menu changes its style when scrolled or when hovering over menu items, providing a dynamic user experience.
 
 ## Features
 
-- **Fixed Navigation Menu**: The menu stays at the top of the page as you scroll.
-- **Interactive Effects**: The menu changes background color on scroll and hover.
-- **Responsive Design**: The layout adapts to different screen sizes.
-- **Sections with Content**: Includes Home, About, Services, and Contact sections with relevant content.
+- **Fixed Navigation Bar**: The menu remains fixed at the top of the page and is visible on all pages.
+- **Interactive Styling**: 
+  - Changes background color and font color on scroll.
+  - Highlights menu items on hover.
+- **Responsive Design**: The menu adapts to different screen sizes, including mobile devices, with a toggleable hamburger menu.
+- **Smooth Scrolling**: Clicking on menu items smoothly scrolls to the respective sections.
 
 ## Technologies Used
 
-- **HTML**: For structuring the web page.
-- **CSS**: For styling the page and adding responsive design.
-- **JavaScript**: For adding interactivity to the navigation menu.
-
-## Sections
-
-1. **Home**: A welcoming section with a brief introduction and a call-to-action button.
-2. **About**: Information about the team and mission.
-3. **Services**: A list of services offered with descriptions.
-4. **Contact**: A form for users to get in touch.
+- **HTML5**: For structuring the navigation menu and content.
+- **CSS3**: For styling, including Flexbox, transitions, and media queries for responsiveness.
+- **JavaScript**: For adding interactivity, such as scroll events and hover effects.
 
 ## 🚀 **Live View**  
 🌐  View the Live Site Here [Landing Page](https://web-business-landing-page.netlify.app) 
