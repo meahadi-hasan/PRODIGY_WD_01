@@ -192,7 +192,7 @@ nav ul li a:hover {
 
 .service-list {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     flex-wrap: wrap;
 }
 
@@ -311,7 +311,7 @@ footer p {
     }
 
     .hero p {
-        font-size: 1.2em;
+        font-size: 1.1em;
     }
 
     .hero .btn {
@@ -335,8 +335,9 @@ footer p {
     }
 
     .service-item {
-        width: 100%;
+        width: 80%;
         margin: 10px 0;
+        
     }
 
     /* Contact Section */
