@@ -27,18 +27,18 @@ document.getElementById('contact-form').addEventListener('submit', function(e) {
 });
 
 // Toggle Mobile Menu
-const mobileMenu = document.getElementById('mobile-menu');
+const menuIcon = document.getElementById('menu-icon');
 const navList = document.querySelector('.nav-list');
 
-mobileMenu.addEventListener('click', () => {
-    mobileMenu.classList.toggle('active'); 
-    navList.classList.toggle('active'); 
+menuIcon.addEventListener('click', () => {
+    menuIcon.classList.toggle('active'); 
+    navList.classList.toggle('active');
 });
 
 // Close Menu on Click Outside
 document.addEventListener('click', (e) => {
-    if (!mobileMenu.contains(e.target) && !navList.contains(e.target)) {
-        mobileMenu.classList.remove('active'); 
-        navList.classList.remove('active'); 
+    if (!menuIcon.contains(e.target) && !navList.contains(e.target)) {
+        menuIcon.classList.remove('active'); 
+        navList.classList.remove('active');
     }
 });
