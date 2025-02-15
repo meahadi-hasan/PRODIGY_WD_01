@@ -68,11 +68,12 @@ header {
     color: #1abc9c;
 }
 
-/* Hamburger Menu (Mobile) */
+/* Hamburger menu style */
 .menu-toggle {
-    display: none;
+    display: none; 
     flex-direction: column;
     cursor: pointer;
+    align-items: center; 
 }
 
 .menu-toggle .bar {
@@ -83,34 +84,49 @@ header {
     transition: all 0.3s;
 }
 
-header.scrolled {
-    background: #34495e;
-    padding: 10px 0;
-}
-
-nav ul {
-    list-style: none;
-    padding: 0;
-    text-align: center;
-    margin: 0;
-}
-
-nav ul li {
-    display: inline;
-    margin: 0 20px;
-}
-
-nav ul li a {
-    color: #fff;
-    text-decoration: none;
+/* Cross icon style */
+.menu-toggle .cross {
+    display: none; 
+    font-size: 24px;
     font-weight: bold;
-    transition: color 0.3s;
+    cursor: pointer;
+    color: #fff; 
 }
 
-nav ul li a:hover {
-    color: #1abc9c;
+.menu-toggle.active .bar {
+    display: none; 
 }
 
+.menu-toggle.active .cross {
+    display: block; 
+}
+
+/* Hamburger menu on mobile devices */
+@media only screen and (max-width: 768px) {
+    .menu-toggle {
+        display: flex; 
+    }
+
+    .nav-list {
+        display: none; 
+        flex-direction: column;
+        width: 100%;
+        background: #2c3e50;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        padding: 10px 0; 
+    }
+
+    .nav-list.active {
+        display: flex; 
+    }
+
+    .nav-list li {
+        margin: 10px 0;
+        text-align: center; 
+    }
+}
 /* Hero Section */
 .hero {
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('Images/bg-hero.jpg') no-repeat center center/cover;
