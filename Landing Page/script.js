@@ -31,12 +31,14 @@ const mobileMenu = document.getElementById('mobile-menu');
 const navList = document.querySelector('.nav-list');
 
 mobileMenu.addEventListener('click', () => {
-    navList.classList.toggle('active');
+    mobileMenu.classList.toggle('active'); 
+    navList.classList.toggle('active'); 
 });
 
 // Close Menu on Click Outside (Optional)
 document.addEventListener('click', (e) => {
     if (!mobileMenu.contains(e.target) && !navList.contains(e.target)) {
-        navList.classList.remove('active');
+        mobileMenu.classList.remove('active'); 
+        navList.classList.remove('active'); 
     }
 });
