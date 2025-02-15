@@ -69,42 +69,17 @@ header {
 }
 
 /* Hamburger menu style */
-.menu-toggle {
+.menu-icon {
     display: none; 
-    flex-direction: column;
     cursor: pointer;
-    align-items: center; 
-}
-
-.menu-toggle .bar {
-    width: 25px;
-    height: 3px;
-    background: #fff;
-    margin: 4px 0;
-    transition: all 0.3s;
-}
-
-/* Cross icon style */
-.menu-toggle .cross {
-    display: none; 
     font-size: 24px;
-    font-weight: bold;
-    cursor: pointer;
-    color: #fff; 
-}
-
-.menu-toggle.active .bar {
-    display: none; 
-}
-
-.menu-toggle.active .cross {
-    display: block; 
+    color: #fff;
 }
 
 /* Hamburger menu on mobile devices */
 @media only screen and (max-width: 768px) {
-    .menu-toggle {
-        display: flex; 
+    .menu-icon {
+        display: block; 
     }
 
     .nav-list {
@@ -125,6 +100,20 @@ header {
     .nav-list li {
         margin: 10px 0;
         text-align: center; 
+    }
+
+
+    #menu-icon-times {
+        display: none;
+    }
+
+    
+    .menu-icon.active #menu-icon-bars {
+        display: none;
+    }
+
+    .menu-icon.active #menu-icon-times {
+        display: block;
     }
 }
 /* Hero Section */
