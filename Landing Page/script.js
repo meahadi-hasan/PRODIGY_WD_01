@@ -35,7 +35,7 @@ mobileMenu.addEventListener('click', () => {
     navList.classList.toggle('active'); 
 });
 
-// Close Menu on Click Outside (Optional)
+// Close Menu on Click Outside
 document.addEventListener('click', (e) => {
     if (!mobileMenu.contains(e.target) && !navList.contains(e.target)) {
         mobileMenu.classList.remove('active'); 
